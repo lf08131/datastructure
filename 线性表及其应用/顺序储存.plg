@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 顺序储存 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Think\AppData\Local\Temp\RSP5404.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/顺序储存.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Think\Desktop\I need\代码\数据结构\线性表及其应用\顺序储存.cpp"
+]
+Creating command line "cl.exe @C:\Users\Think\AppData\Local\Temp\RSP5404.tmp" 
+Creating temporary file "C:\Users\Think\AppData\Local\Temp\RSP5405.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/顺序储存.pdb" /debug /machine:I386 /out:"Debug/顺序储存.exe" /pdbtype:sept 
+".\Debug\顺序储存.obj"
+]
+Creating command line "link.exe @C:\Users\Think\AppData\Local\Temp\RSP5405.tmp"
+<h3>Output Window</h3>
+Compiling...
+顺序储存.cpp
+c:\users\think\desktop\i need\代码\数据结构\线性表及其应用\顺序储存.cpp(133) : warning C4715: 'SeqList::Get' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+顺序储存.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
